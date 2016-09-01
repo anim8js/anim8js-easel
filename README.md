@@ -20,7 +20,7 @@ If a (type) isn't beside the property - assume a simple number type.
 `cpy` `radiusTL` `radiusTR` `radiusBL` `radiusBR` `miterLimit` `offsetX`
 `offsetY` `blur` `framerate` `currentAnimationFrame` `style`(rgba) `color`(rgba)
 
-##### Dynamic properties you can animate
+##### Dynamic properties you can anim8
 
  `cornerRadius` `brightness` `contrast` `saturation` `hue` `reg`(2d)
  `position`(2d) `offset`(2d) `cp`(2d) `cp1`(2d) `cp2`(2d) `filterBlur`(2d)
