@@ -6,7 +6,7 @@
 
 - Bower: `bower install anim8js-easel`
 - Node: `npm install anim8js-easel`
-- Download: [anim8js-easel](http://download.com)
+- Download: [anim8js-easel](https://raw.githubusercontent.com/ClickerMonkey/anim8js-easel/master/build/anim8js-easel.js)
 
 ##### Properties you can anim8
 
