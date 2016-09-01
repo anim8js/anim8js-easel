@@ -1,0 +1,26 @@
+{
+  "name": "anim8js-easel",
+  "version": "1.0.0",
+  "homepage": "http://clickermonkey.github.io/anim8js-easel",
+  "authors": [
+    "Philip Diffenderfer <pdiffenderfer@gmail.com>"
+  ],
+  "description": "anim8 EaselJS (http://www.createjs.com/easeljs)",
+  "main": "build/anim8js-easel.js",
+  "keywords": [
+    "javascript",
+    "animation",
+    "EaselJS"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "src"
+  ],
+  "dependencies": {
+    "anim8js": "^1.0.0"
+  }
+}
