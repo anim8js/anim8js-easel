@@ -21,6 +21,7 @@
     "src"
   ],
   "dependencies": {
-    "anim8js": "^1.0.0"
+    "anim8js": "^1.0.0",
+    "EaselJS": "easeljs#^0.8.2"
   }
 }
