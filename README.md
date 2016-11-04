@@ -1,4 +1,4 @@
-# anim8js-easel
+![anim8js](https://github.com/anim8js/anim8js/blob/master/images/anim8js-logo.png)
 
 [anim8](https://github.com/anim8js/anim8js) [EaselJS](http://www.createjs.com/easeljs)
 
