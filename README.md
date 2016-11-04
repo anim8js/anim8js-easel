@@ -1,12 +1,12 @@
 # anim8js-easel
 
-[anim8](https://github.com/ClickerMonkey/anim8js) [EaselJS](http://www.createjs.com/easeljs)
+[anim8](https://github.com/anim8js/anim8js) [EaselJS](http://www.createjs.com/easeljs)
 
 ### Installation
 
 - Bower: `bower install anim8js-easel`
 - Node: `npm install anim8js-easel`
-- Download: [anim8js-easel](https://raw.githubusercontent.com/ClickerMonkey/anim8js-easel/master/build/anim8js-easel.js)
+- Download: [anim8js-easel](https://raw.githubusercontent.com/anim8js/anim8js-easel/master/build/anim8js-easel.js)
 
 ##### Properties you can anim8
 

@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ClickerMonkey/anim8js-easel.git"
+    "url": "git://github.com/anim8js/anim8js-easel.git"
   },
   "scripts": {
     "test": "gulp test"
