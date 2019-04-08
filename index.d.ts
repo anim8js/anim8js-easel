@@ -158,4 +158,7 @@ declare module 'anim8js-easel'
     dynamic (nm: string): Dynamic | false;
   }
 
+  export default function (subject: SubjectEasel): AnimatorEasel;
+  export default function (subject: SubjectEasel[]): AnimatorsEasel;
+  
 }
