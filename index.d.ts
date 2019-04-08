@@ -1,7 +1,7 @@
 
 import { ValueNumber, Animator, Animators, Value2d, ValueRGBA, FastMap, Factory, Attribute, Factories, Movie, Sequence, MovieTimeline, MoviePlayer, anim8, anim8s, m8, m8s } from './types/anim8js';
 
-declare module "anim8js-easel"
+declare module 'anim8js-easel'
 {
   
   export type SubjectEasel = object;
@@ -103,42 +103,37 @@ declare module "anim8js-easel"
 
   }
 
-  export interface Easel
+  export const easel:
   {
     Attributes: { 
       [P in keyof AttributesEasel]: Partial<Attribute<AttributesEasel, P>> 
     };
+
     attribute<K extends keyof AttributesEasel> (attr: string | Partial<Attribute<AttributesEasel, K>> ): Partial<Attribute<AttributesEasel, K>>;
-    Dynamics: DynamicsMap;
+
+    Dynamics: {
+      style: Dynamic;
+      color: Dynamic;
+      cornerRadius: Dynamic;
+      brightness: Dynamic;
+      contrast: Dynamic;
+      saturation: Dynamic;
+      hue: Dynamic;
+      reg: Dynamic;
+      position: Dynamic;
+      offset: Dynamic;
+      cp: Dynamic;
+      cp1: Dynamic;
+      cp2: Dynamic;
+      filterBlur: Dynamic;
+      size: Dynamic;
+      scale: Dynamic;
+      skew: Dynamic;
+      filterMultiplier: Dynamic;
+      filterOffset: Dynamic;
+    };
+
     dynamic (nm: string): Dynamic | false;
-  }
-
-  export interface DynamicsMap
-  {
-    style: Dynamic;
-    color: Dynamic;
-    cornerRadius: Dynamic;
-    brightness: Dynamic;
-    contrast: Dynamic;
-    saturation: Dynamic;
-    hue: Dynamic;
-    reg: Dynamic;
-    position: Dynamic;
-    offset: Dynamic;
-    cp: Dynamic;
-    cp1: Dynamic;
-    cp2: Dynamic;
-    filterBlur: Dynamic;
-    size: Dynamic;
-    scale: Dynamic;
-    skew: Dynamic;
-    filterMultiplier: Dynamic;
-    filterOffset: Dynamic;
-  }
-
-  interface Factories
-  {
-    'easel': FactoryEasel;
   }
 
 }
