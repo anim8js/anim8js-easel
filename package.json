@@ -1,6 +1,6 @@
 {
   "name": "anim8js-easel",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "anim8 EaselJS (http://www.createjs.com/easeljs)",
   "author": "Philip Diffenderfer",
   "main": "build/anim8js-easel.js",
@@ -14,6 +14,8 @@
     "test": "gulp test"
   },
   "devDependencies": {
+    "@types/createjs": "0.0.29",
+    "@types/easeljs": "^1.0.0",
     "gulp": "^3.8.10",
     "gulp-check-filesize": "^2.0.1",
     "gulp-concat": "^2.4.3",

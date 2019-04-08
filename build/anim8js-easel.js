@@ -1,4 +1,4 @@
-/* anim8js-easel 1.0.5 - anim8 EaselJS (http://www.createjs.com/easeljs) by Philip Diffenderfer */
+/* anim8js-easel 1.0.6 - anim8 EaselJS (http://www.createjs.com/easeljs) by Philip Diffenderfer */
 // UMD (Universal Module Definition)
 (function (root, factory)
 {

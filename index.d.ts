@@ -1,10 +1,33 @@
 
+import 'createjs'
 import { ValueNumber, Animator, Animators, Value2d, ValueRGBA, FastMap, Factory, Attribute, Factories, Movie, Sequence, MovieTimeline, MoviePlayer, anim8, anim8s, m8, m8s } from './types/anim8js';
 
 declare module 'anim8js-easel'
 {
   
-  export type SubjectEasel = object;
+  export type SubjectEasel = 
+    createjs.DisplayObject |
+    createjs.Filter |
+    createjs.Graphics.Arc |
+    createjs.Graphics.BezierCurveTo |
+    createjs.Graphics.Circle |
+    createjs.Graphics.Fill |
+    createjs.Graphics.LineTo |
+    createjs.Graphics.MoveTo |
+    createjs.Graphics.PolyStar |
+    createjs.Graphics.QuadraticCurveTo |
+    createjs.Graphics.Rect |
+    createjs.Graphics.RoundRect |
+    createjs.Graphics.Stroke |
+    createjs.Graphics.StrokeStyle |
+    createjs.Point |
+    createjs.Rectangle |
+    createjs.Shadow |
+    createjs.Sprite |
+    createjs.SpriteSheet |
+    createjs.Text;
+
+  export type SubjectsEasel = SubjectEasel | SubjectEasel[];
 
   export class AttributesEasel
   {
@@ -61,7 +84,6 @@ declare module 'anim8js-easel'
     currentAnimationFrame: ValueNumber;
     style: ValueRGBA;
     color: ValueRGBA;
-
     cornerRadius: ValueNumber;
     brightness: ValueNumber;
     contrast: ValueNumber;
