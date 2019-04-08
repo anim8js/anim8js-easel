@@ -1,4 +1,5 @@
-import { ValueNumber, Animator, Animators, Value2d, ValueRGBA, FastMap, Factory, Attribute, Factories, Movie, Sequence, MovieTimeline, MoviePlayer, anim8, anim8s, m8, m8s } from "anim8js";
+
+import { ValueNumber, Animator, Animators, Value2d, ValueRGBA, FastMap, Factory, Attribute, Factories, Movie, Sequence, MovieTimeline, MoviePlayer, anim8, anim8s, m8, m8s } from './types/anim8js';
 
 declare module "anim8js-easel"
 {
@@ -101,11 +102,6 @@ declare module "anim8js-easel"
   {
 
   }
-
-  export function anim8 (subject: SubjectEasel): AnimatorEasel;
-  export function anim8s (subject: SubjectEasel): Animators<AttributesEasel, SubjectEasel>;
-  export function m8 (subject: SubjectEasel): AnimatorEasel;
-  export function m8s (subject: SubjectEasel): Animators<AttributesEasel, SubjectEasel>;
 
   export interface Easel
   {
